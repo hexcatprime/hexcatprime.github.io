@@ -11,40 +11,47 @@ body {
     background-color: var(--black-color);
     color: var(--white-color);
     font-family: 'Courier New', monospace;
-
+    font-size: small;
 }
 
 .nav {
     background-color: var(--grey-color);
+    border-radius: 5px;
     display: flex;
     flex-flow: row wrap;
     flex: 1;
     justify-content: left;
-    position: sticky;
-    top: 2%;
+    position: fixed;
+    top: 1%;
+    width: 98%;
 
 }
 
-.nav-item {
+.nav a {
     background-color: var(--grey-color);
+    border-radius: 5px;
     text-decoration: none;
     font-size: xx-large;
     color: var(--white-color);
     padding-right: 2%;
     padding-left: 2%;
-    top: 0%;
+    top: 0;
 
 }
 
-.nav-item:hover {
+.nav a:hover {
     background-color: var(--black-color);
 }
 
-.nav-item.active {
+.nav a.active {
     background-color: var(--blue-color);
     color: var(--black-color);
 }
 
 .main {
-    margin-top: 5%;
+    margin-top: 10%;
+}
+
+.main img {
+    filter: sepia(60%);
 }
