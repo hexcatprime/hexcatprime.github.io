@@ -1,34 +1,50 @@
-:root 
-{
-    --white-color:#FEFCFD;
-    --orange-color:#FE5F00;
-    --blue-color:#03B5AA;
-    --grey-color:#2D3339;
-    --black-color:#031926;
+:root {
+    --white-color: #FEFCFD;
+    --orange-color: #FE5F00;
+    --blue-color: #03B5AA;
+    --grey-color: #2D3339;
+    --black-color: #031926;
 }
-html
-{
-    background-color:rgb(--black-color);
-}
-.nav
-{
-    background-color:rgb(--grey-color);
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: left;
-    padding: 0px 100px;
-    position: fixed;
+
+html,
+body {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    font-family: 'Courier New', monospace;
 
 }
-a.nav-item
-{
-    background-color:rgb(--grey-color);
+
+.nav {
+    background-color: var(--grey-color);
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    justify-content: left;
+    position: sticky;
+    top: 2%;
+
 }
-a.nav-item:hover
-{
-    background-color:rgb(--black-color);
+
+.nav-item {
+    background-color: var(--grey-color);
+    text-decoration: none;
+    font-size: xx-large;
+    color: var(--white-color);
+    padding-right: 2%;
+    padding-left: 2%;
+    top: 0%;
+
 }
-.main
-{
-    margin-top: 10%;
+
+.nav-item:hover {
+    background-color: var(--black-color);
+}
+
+.nav-item.active {
+    background-color: var(--blue-color);
+    color: var(--black-color);
+}
+
+.main {
+    margin-top: 5%;
 }
