@@ -1,2 +1,2 @@
 # hexcatprime
-repository for website
+https://www.hexcat.net
