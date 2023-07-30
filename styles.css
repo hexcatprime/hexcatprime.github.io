@@ -1,0 +1,34 @@
+:root 
+{
+    --white-color:#FEFCFD;
+    --orange-color:#FE5F00;
+    --blue-color:#03B5AA;
+    --grey-color:#2D3339;
+    --black-color:#031926;
+}
+html
+{
+    background-color:rgb(--black-color);
+}
+.nav
+{
+    background-color:rgb(--grey-color);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    padding: 0px 100px;
+    position: fixed;
+
+}
+a.nav-item
+{
+    background-color:rgb(--grey-color);
+}
+a.nav-item:hover
+{
+    background-color:rgb(--black-color);
+}
+.main
+{
+    margin-top: 10%;
+}
