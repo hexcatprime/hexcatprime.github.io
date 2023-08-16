@@ -60,13 +60,17 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: var(--white-color);
     border-radius: 5px;
 }
 
 .card a {
     text-decoration: none;
     color: var(--white-color);
+}
+
+
+.card a:hover {
+    background-color: var(--blue-color);
 }
 
 .card img{
