@@ -2,6 +2,7 @@
     --white-color: #FEFCFD;
     --orange-color: #FE5F00;
     --blue-color: #03B5AA;
+    --dark-blue-color: #00757A;
     --grey-color: #2D3339;
     --black-color: #031926;
 }
@@ -23,7 +24,7 @@ body {
     justify-content: left;
     position: fixed;
     top: 1%;
-    width: 98%;
+    width: 99%;
 
 }
 
@@ -43,15 +44,49 @@ body {
     background-color: var(--black-color);
 }
 
+.nav a.active:hover {
+    background-color: var(--white-color);
+}
+
 .nav a.active {
     background-color: var(--blue-color);
     color: var(--black-color);
 }
 
 .main {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
-.main img {
-    filter: sepia(60%);
+.card {
+    background-color: var(--dark-blue-color);
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--white-color);
+    border-radius: 5px;
+}
+
+.card a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.card img{
+    width: 150px;
+}
+
+.corpus {
+    background-color: var(--grey-color);
+    width: 80%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-radius: 5px;
+}
+
+.profile {
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 1%;
+
 }
