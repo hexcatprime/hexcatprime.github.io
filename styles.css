@@ -13,6 +13,7 @@ body {
     color: var(--white-color);
     font-family: 'Courier New', monospace;
     font-size: small;
+    padding-top: 2%;
 }
 
 .nav {
@@ -53,10 +54,6 @@ body {
     color: var(--black-color);
 }
 
-.main {
-    margin-top: 5%;
-}
-
 .card {
     background-color: var(--dark-blue-color);
     width: 20%;
@@ -79,8 +76,7 @@ body {
 .corpus {
     background-color: var(--grey-color);
     width: 80%;
-    padding-right: 2%;
-    padding-left: 2%;
+    padding-left: 1%;
     border-radius: 5px;
 }
 
@@ -90,3 +86,17 @@ body {
     margin-bottom: 1%;
 
 }
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .nav, .main, .card, .corpus, .profile{
+      width: 100%;
+      padding-left: 0%;
+      flex-direction: column;
+    }
+
+    .nav{
+        position: relative;
+        margin-bottom: 1%;
+    }
+  }
