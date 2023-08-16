@@ -9,7 +9,7 @@
 
 html,
 body {
-    background-color: var(--black-color);
+    background-color: var(--grey-color);
     color: var(--white-color);
     font-family: 'Courier New', monospace;
     font-size: small;
@@ -17,7 +17,7 @@ body {
 }
 
 .nav {
-    background-color: var(--grey-color);
+    background-color: var(--black-color);
     border-radius: 5px;
     display: flex;
     flex-flow: row wrap;
@@ -30,7 +30,7 @@ body {
 }
 
 .nav a {
-    background-color: var(--grey-color);
+    background-color: var(--black-color);
     border-radius: 5px;
     text-decoration: none;
     font-size: xx-large;
@@ -42,7 +42,8 @@ body {
 }
 
 .nav a:hover {
-    background-color: var(--black-color);
+    background-color: var(--white-color);
+    color: var(--black-color);
 }
 
 .nav a.active:hover {
@@ -79,7 +80,7 @@ body {
 }
 
 .corpus {
-    background-color: var(--grey-color);
+    background-color: var(--black-color);
     width: 80%;
     padding-left: 1%;
     border-radius: 5px;
