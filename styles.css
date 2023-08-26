@@ -94,6 +94,7 @@ body {
     background-color: var(--base-color);
     width: 80%;
     padding-left: 1%;
+    line-height: 1.5;
 }
 
 .marquee {
@@ -122,6 +123,7 @@ body {
     font-size: xx-large;
     padding: 0% 2%;
     margin-bottom: 1%;
+    line-height: 1.5;
 }
 .block p{
     margin: 0%;
