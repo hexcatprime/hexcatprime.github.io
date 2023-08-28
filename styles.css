@@ -10,7 +10,8 @@ body {
     background-color: var(--base-color);
     background-image: url('images/bg.svg');
     background-size: cover;
-    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-blend-mode: normal;
     color: var(--slate1-color);
     font-family: 'Courier New', monospace;
@@ -25,8 +26,8 @@ body {
     position: sticky;
     top: 0;
     border: 2px solid var(--slate1-color);
+    background-color: var(--base-color);
     display: flex;
-    flex-flow: row wrap;
     flex: 1;
     justify-content: left;
     z-index: 1;
@@ -123,7 +124,7 @@ body {
 .block {
     background-color: var(--base-color);
     border: 2px solid var(--slate1-color);
-    font-size: xx-large;
+    font-size: large;
     padding: 0% 2%;
     margin-bottom: 1%;
     line-height: 1.5;
