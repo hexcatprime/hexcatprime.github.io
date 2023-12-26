@@ -1,0 +1,156 @@
+:root {
+    --base-color: #FEFCFD;
+    --alert-color: #D00000;
+    --notice-color: #03B5AA;
+    --slate1-color: #031926;
+}
+
+html,
+body {
+    background-color: var(--base-color);
+    background-image: url('images/bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: normal;
+    color: var(--slate1-color);
+    font-family: 'Courier New', monospace;
+    font-size: small;
+}
+
+.main {
+    margin-top: 1%;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    border: 2px solid var(--slate1-color);
+    background-color: var(--base-color);
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    z-index: 1;
+
+}
+
+.nav a {
+    background-color: var(--base-color);
+    border: 2px solid var(--slate1-color);
+    color: var(--slate-color);
+    text-decoration: none;
+    font-size: xx-large;
+    padding: 0% 2%;
+}
+
+.nav a:hover {
+    background-color: var(--slate1-color);
+    color: var(--base-color);
+}
+
+.nav a.active:hover {
+    background-color: var(--notice-color);
+    color: var(--slate1-color);
+}
+
+.nav a.active {
+    background-color: var(--alert-color);
+    color: var(--base-color);
+}
+
+.profile {
+    display: flex;
+    flex-direction:row;
+    border: 2px solid var(--slate1-color);
+    margin-bottom: .5%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--slate1-color);
+    width: 20%;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: var(--base-color);
+}
+
+
+.card:hover {
+    background-color: var(--alert-color);
+    color: var(--slate1-color);
+}
+
+.card:hover img{
+    mix-blend-mode: normal;
+}
+
+.card img{
+    width: 150px;
+    mix-blend-mode: luminosity;
+}
+
+.corpus {
+    background-color: var(--base-color);
+    width: 80%;
+    padding-left: 1%;
+    line-height: 1.5;
+}
+
+.marquee {
+    display: flex;
+    overflow: hidden;
+    background-color: var(--notice-color);
+    color: var(--slate1-color);
+    border: 2px solid var(--slate1-color);
+    font-size: 15vh;
+    mix-blend-mode: luminosity;
+}
+
+.marquee_group {
+    display: flex;
+    justify-content: space-around;
+    animation: scroll 30s infinite linear;
+}
+
+.marquee_group span{
+    display:inline-block;
+    white-space: nowrap;
+}
+
+.block {
+    background-color: var(--base-color);
+    border: 2px solid var(--slate1-color);
+    font-size: large;
+    padding: 0% 2%;
+    margin-bottom: 1%;
+    line-height: 1.5;
+}
+.block p{
+    margin: 0%;
+}
+@media only screen and (max-width: 1080px) {
+    /* For mobile phones: */
+    .nav, .main, .card, .corpus, .profile{
+      width: 100%;
+      padding-left: 0%;
+      flex-direction: column;
+    }
+
+    .nav{
+        position: relative;
+        margin-bottom: 1%;
+    }
+  }
+
+  @keyframes scroll{
+    from{
+        transform:translateX(0%);
+    }
+    to{
+        transform:translateX(-100%);
+    }
+  }
