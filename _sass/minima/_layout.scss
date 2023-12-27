@@ -276,3 +276,35 @@
     }
   }
 }
+
+.marquee {
+  display: flex;
+  overflow: hidden;
+  margin: auto;
+  width: 98%;
+  background-color: $brand-color;
+  color: $text-color;
+  border: 2px solid $text-color;
+  font-size: 15vh;
+  mix-blend-mode: multiply;
+}
+
+.marquee_group {
+  display: flex;
+  justify-content: space-around;
+  animation: scroll 30s infinite linear;
+}
+
+.marquee_group span{
+  display:flex;
+  white-space: nowrap;
+}
+
+@keyframes scroll{
+  0% {
+      transform:translateX(0%);
+  }
+  100% {
+      transform:translateX(-100%);
+  }
+}
