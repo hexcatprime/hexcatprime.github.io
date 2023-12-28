@@ -89,7 +89,6 @@
       float: right;
       width: 36px;
       height: 36px;
-      z-index: 2;
       cursor: pointer;
     }
 
@@ -277,6 +276,7 @@
 }
 
 .marquee {
+  position: relative;
   display: flex;
   overflow: hidden;
   margin: auto;
@@ -286,6 +286,7 @@
   border: 2px solid $text-color;
   font-size: 15vh;
   mix-blend-mode: multiply;
+  z-index: -1;
 }
 
 .marquee_group {
