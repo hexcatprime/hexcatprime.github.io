@@ -19,7 +19,7 @@ body {
   background-image: $background-image;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-blend-mode: normal;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -62,21 +62,6 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-
-
-
-/**
- * Figures
- */
-figure > img {
-  display: block;
-}
-
-figcaption {
-  font-size: $small-font-size;
-}
-
-
 
 /**
  * Lists
@@ -179,7 +164,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: 98%;
+  max-width: 90%;
   border: 2px solid $text-color;
   background-color: $background-color;
   // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -189,7 +174,7 @@ pre {
   @extend %clearfix;
 
   @include media-query($on-laptop) {
-    max-width: 98%;
+    max-width: 90%;
     margin-right: auto;
     margin-left: auto;
     // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
@@ -259,4 +244,30 @@ table {
   td {
     border: 1px solid $grey-color-light;
   }
+}
+
+figure {
+  display: inline-block;
+  margin: 5px;
+  border: 2px solid $brand-color;
+  mix-blend-mode: luminosity;
+  align-items: center;
+}
+
+figure img {
+  display: block;
+  background-color: $text-color;
+  width: 200px;
+}
+
+figure:hover {
+  mix-blend-mode: normal;
+}
+
+figcaption {
+  text-align: center;
+  background: $text-color;
+  color: $background-color;
+  padding: 0 5px 5px;
+  margin: 0;
 }

@@ -2,11 +2,12 @@
  * Site header
  */
 .site-header {
-  margin-top: .5%;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 4;
 }
 
 .site-title {
@@ -120,6 +121,9 @@
       display: block;
       padding: 5px 10px;
     }
+
+
+
   }
 }
 
@@ -235,20 +239,26 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
+  text-align: left;
+
+  @include media-query($on-palm) {
+    text-align: center;
+  }
 }
 
 .post-title {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
-
-  @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
-  }
 }
 
 .post-content {
   margin-bottom: $spacing-unit;
+  text-align: left;
+
+  @include media-query($on-palm) {
+    text-align: center;
+  }
 
   h2 {
     @include relative-font-size(2);
@@ -280,7 +290,7 @@
   display: flex;
   overflow: hidden;
   margin: auto;
-  width: 98%;
+  width: 90%;
   background-color: $brand-color;
   color: $text-color;
   border: 2px solid $text-color;

@@ -9,3 +9,7 @@ It lives!
 I rewrote this website using [Jekyll](https://jekyllrb.com/) static site generator. Manually configuring all of my webpage headers was getting tiring. 
 
 The purpose of this blog is to detail my endeavors in tech, art, and writing.
+
+Points of interest:
+===
+
