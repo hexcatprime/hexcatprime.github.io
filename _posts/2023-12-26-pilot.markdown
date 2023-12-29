@@ -4,12 +4,51 @@ title:  "pilot"
 date:   2023-12-26 16:29:13 -0500
 categories: website
 ---
+
 It lives!
+
+I rewrote this website using [Jekyll](https://jekyllrb.com/) static site generator. Manually configuring my navbar on all pages was getting tiring. 
+
+The purpose of this blog is to detail my experiences in tech, art, and writing.
+
+Points of interest with website creation:
+---
+
+"Active" page in navbar
 ===
-I rewrote this website using [Jekyll](https://jekyllrb.com/) static site generator. Manually configuring all of my webpage headers was getting tiring. 
 
-The purpose of this blog is to detail my endeavors in tech, art, and writing.
+I wanted the user to know what page they're on from the navbar. My old website had this configured manually. The active page had an "active" class which would determine its css rules. This approach was not possible with Jenkins since the webpages are built programmatically. Instead, I had to go through the Liquid syntax and check if the nav element url was the same as the page's url. This was accomplished as follows:
+~~~
+{% raw %}
+{%- for path in page_paths -%}
+{%- assign my_page = site.pages | where: "path", path | first -%}
+{%- if my_page.title and page.url == my_page.url -%}
+<a class="page-link active" class="author"href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+{%- elsif my_page.title -%}
+<a class="page-link" class="author"href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+{%- endif -%}
+{%- endfor -%}
+{% endraw %}
+~~~
+{: .language-liquid}
+1. loop through all the pages
+2. set my_page equal to the nav element we're currently building
+3. compare my_page.url to page.url (nav element's url vs. whole page url)
+4. add the "active" tag to its class if they match
 
-Points of interest:
+The result of this should set a teal background on the current page's nav item.
+
+Different CSS for mobile & inspect element
 ===
 
+I changed some style rules depending if the website was viewed on mobile or desktop. The rule changes the layout based on screen dimensions. 
+
+~~~
+@include media-query($on-palm) {
+text-align: center;
+}
+~~~
+{: .language-css}
+This snippet was embedded in an existing class and shifts the text from the left of the screen to the center. The threshold for this change occurs at $on-palm, which was set to 600 pixels.
+
+I found firefox has [Responsive Design Mode](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/) (Ctrl+Shift+M) which can emulate the screen of any phone, which I found very convenient.
