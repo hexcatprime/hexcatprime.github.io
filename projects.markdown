@@ -22,3 +22,12 @@ order: 1
   <figcaption>the clock puzzle</figcaption>
   </a>
 </figure>
+
+<figure>
+  <a href="https://github.com/dubsbol/dotfiles" target="_blank" rel="noopener noreferrer">
+  <img 
+  src="/assets/dotfiles.png"
+  alt="image">
+  <figcaption>dotfiles</figcaption>
+  </a>
+</figure>
