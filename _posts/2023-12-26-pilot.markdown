@@ -51,4 +51,4 @@ text-align: center;
 {: .language-css}
 This snippet was embedded in an existing class and shifts the text from the left of the screen to the center. The threshold for this change occurs at $on-palm, which was set to 600 pixels.
 
-I found firefox has [Responsive Design Mode](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/) (Ctrl+Shift+M) which can emulate the screen of any phone, which I found very convenient.
+I found firefox has [Responsive Design Mode](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/) (Ctrl+Shift+M) which emulates any phone screen, very convenient.
