@@ -247,9 +247,6 @@
   margin-bottom: $spacing-unit;
   text-align: left;
 
-  @include media-query($on-palm) {
-    text-align: center;
-  }
 }
 
 .post-title {
@@ -261,10 +258,6 @@
 .post-content {
   margin-bottom: $spacing-unit;
   text-align: left;
-
-  @include media-query($on-palm) {
-    text-align: center;
-  }
 
   h2 {
     @include relative-font-size(2);
