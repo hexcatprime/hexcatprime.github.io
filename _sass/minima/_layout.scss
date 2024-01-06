@@ -282,6 +282,23 @@
       @include relative-font-size(1.125);
     }
   }
+
+}
+
+.projects-header {
+  margin-bottom: $spacing-unit;
+  text-align: left;
+  @include media-query($on-palm) {
+    text-align: center;
+  }
+}
+
+.projects-content {
+  margin-bottom: $spacing-unit;
+  text-align: left;
+  @include media-query($on-palm) {
+    text-align: center;
+  }
 }
 
 .marquee {

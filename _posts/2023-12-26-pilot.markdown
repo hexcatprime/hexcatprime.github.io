@@ -2,7 +2,7 @@
 layout: post
 title:  "pilot"
 date:   2023-12-26 16:29:13 -0500
-categories: website
+categories: tech
 ---
 
 It lives!
