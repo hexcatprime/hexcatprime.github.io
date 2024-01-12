@@ -25,5 +25,5 @@ categories: writing
 
 # My tea cup is whole.
 
-![](/kintsugi.jpg){:width="300px"}
-![](/kintsugi2.jpg){:width="300px"}
+![](/assets/kintsugi.jpg){:width="300px"}
+![](/assets/kintsugi2.jpg){:width="300px"}
