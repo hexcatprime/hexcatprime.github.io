@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "plaintext"
+author: dubsbol
 date:   2024-01-13 13:38:08 -0500
 categories: tech
 ---
