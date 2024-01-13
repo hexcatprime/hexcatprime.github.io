@@ -30,3 +30,12 @@ permalink: /projects/
   <figcaption>dotfiles</figcaption>
   </a>
 </figure>
+
+<figure>
+  <a href="https://github.com/hexcatprime/hexcatprime.github.io/" target="_blank" rel="noopener noreferrer">
+  <img 
+  src="/assets/website.png"
+  alt="image">
+  <figcaption>website</figcaption>
+  </a>
+</figure>

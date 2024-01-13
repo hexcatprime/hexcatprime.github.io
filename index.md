@@ -4,5 +4,4 @@
 layout: about
 ---
 # Featured Blogpost:
-
 {% include_relative _posts/2023-12-26-pilot.md %}
