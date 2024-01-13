@@ -31,7 +31,10 @@ github_username:  dubsbol
 # theme: minima
 plugins:
   - jekyll-feed
-
+header_files:
+  - projects.md
+  - blog.md
+  - about.md
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

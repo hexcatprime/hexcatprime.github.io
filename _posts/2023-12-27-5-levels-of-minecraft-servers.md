@@ -9,8 +9,6 @@ I've played minecraft for 10 years and always needed to host minecraft servers f
 I believe that hosting servers was influential in guiding me towards my studies in system adminstration and cybersecurity. Minecraft was a practical, approachable, subject I could work on as an inexperienced teenager.
 
 1. Share on LAN & Private Tunnel
-    test
-
 2. Dedicated Server & Private Tunnel 
 3. GUI Port Forwarding
 4. Headless Port Forwarding

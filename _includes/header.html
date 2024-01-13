@@ -2,7 +2,7 @@
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | sort: "order" | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign page_paths = site.header_files | default: default_paths -%}
     {%- if page.url == "/" -%}
     <a class="site-title active" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     {%- else -%}
