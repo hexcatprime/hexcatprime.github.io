@@ -3,39 +3,7 @@ layout: projects
 title: Projects
 permalink: /projects/
 ---
-
-<figure>
-  <a href="https://github.com/dubsbol/pigpack" target="_blank" rel="noopener noreferrer">
-  <img 
-  src="/assets/pigpack.png"
-  alt="image">
-  <figcaption>PIGPACK - Minecraft</figcaption>
-  </a>
-</figure>
-
-<figure>
-  <a href="https://github.com/dubsbol/clockpuzzle" target="_blank" rel="noopener noreferrer">
-  <img 
-  src="/assets/clockpuzzle.png"
-  alt="image">
-  <figcaption>the clock puzzle</figcaption>
-  </a>
-</figure>
-
-<figure>
-  <a href="https://github.com/dubsbol/dotfiles" target="_blank" rel="noopener noreferrer">
-  <img 
-  src="/assets/dotfiles.png"
-  alt="image">
-  <figcaption>dotfiles</figcaption>
-  </a>
-</figure>
-
-<figure>
-  <a href="https://github.com/hexcatprime/hexcatprime.github.io/" target="_blank" rel="noopener noreferrer">
-  <img 
-  src="/assets/website.png"
-  alt="image">
-  <figcaption>website</figcaption>
-  </a>
-</figure>
+{% include project.html url="https://github.com/dubsbol/pigpack" image="/assets/pigpack.png" description="PIGPACK - Minecraft" %}
+{% include project.html url="https://github.com/dubsbol/clockpuzzle" image="/assets/clockpuzzle.png" description="the clock puzzle" %}
+{% include project.html url="https://github.com/dubsbol/dotfiles" image="/assets/dotfiles.png" description="dotfiles" %}
+{% include project.html url="https://github.com/hexcatprime/hexcatprime.github.io/" image="/assets/website.png" description="website" %}
