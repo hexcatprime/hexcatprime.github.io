@@ -10,13 +10,32 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #031926 !default;
-$background-color: #FEFCFD !default;
-$brand-color:      #03B5AA !default;
-$alert-color:      #D00000 !default;
-$background-image: url('bg.svg');
+:root {
+  // --text-color: #031926;
+  // --background-color: #FEFCFD;
+  // --brand-color: #03B5AA;
+  // --alert-color: #D00000;
+  --text-color: #073642;
+  --background-color: #fdf6e3;
+  --brand-color: #268bd2;
+  --alert-color: #dc322f;
+   }
 
-$grey-color:       #828282 !default;
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     --text-color: #FEFCFD;
+//     --background-color: #031926;
+//     --brand-color: #D00000;
+//     --alert-color: #03B5AA;
+//    }
+//   }
+
+$text-color:       var(--text-color) !default;
+$background-color: var(--background-color) !default;
+$brand-color:      var(--brand-color) !default;
+$alert-color:      var(--alert-color) !default;
+
+$grey-color:       #b58900 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 

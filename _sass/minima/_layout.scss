@@ -306,9 +306,9 @@
   overflow: hidden;
   margin: auto;
   width: 90%;
-  background-color: $brand-color;
-  color: $text-color;
-  border: 2px solid $text-color;
+  background-color: var(--brand-color);
+  color: var(--text-color);
+  border: 2px solid var(--text-color);
   font-size: 15vh;
   mix-blend-mode: multiply;
   z-index: -1;

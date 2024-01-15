@@ -15,8 +15,9 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
-  background-image: $background-image;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  background-image: url('bg.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -30,6 +31,13 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  // @media (prefers-color-scheme: dark) {
+  //   background-image: url('bg-invert.svg');
+  //   .marquee
+  //   {
+  //     mix-blend-mode: exclusion;
+  //   }
+  // }
 }
 
 
@@ -92,15 +100,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: var(--brand-color);
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    filter: brightness(85%)
   }
 
   &:hover {
-    color: $text-color;
+    color: var(--text-color);
     text-decoration: underline;
   }
 
@@ -216,7 +224,7 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
+  filter: brightness(82%);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
   tr {
