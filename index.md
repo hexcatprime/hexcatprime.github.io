@@ -4,6 +4,6 @@
 layout: about
 ---
 
-# Featured Blogpost: Porcelain Cups
+# Featured Blogpost: Plaintext
 
-{% include_relative _posts/2024-01-06-porcelain-cups.md %}
+{% include_relative _posts/2024-01-13-plaintext.md %}
