@@ -4,6 +4,6 @@
 layout: about
 ---
 
-# Featured Blogpost: **Plaintext**
+# Featured Blogpost: **Anemone**
 
-{% include_relative _posts/2024-01-13-plaintext.md %}
+{% include_relative _posts/2024-01-22-anemone.md %}
