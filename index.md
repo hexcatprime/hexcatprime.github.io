@@ -4,6 +4,6 @@
 layout: about
 ---
 
-# Featured Blogpost: **Anemone**
+# Featured Blogpost: **Crab Language**
 
-{% include_relative _posts/2024-01-22-anemone.md %}
+{% include_relative _posts/2024-01-31-rust.md %}
