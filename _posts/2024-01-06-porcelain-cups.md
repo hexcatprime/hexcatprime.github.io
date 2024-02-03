@@ -26,5 +26,5 @@ I put the cup down on my table. Across from me is a pile of blue sea glass left 
 
 My tea cup is whole.
 
-![](/assets/kintsugi.jpg){:width="300px"}
-![](/assets/kintsugi2.jpg){:width="300px"}
+![](/assets/images/kintsugi.jpg){:width="300px"}
+![](/assets/images/kintsugi2.jpg){:width="300px"}
