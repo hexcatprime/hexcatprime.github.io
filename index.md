@@ -9,7 +9,7 @@ layout: about
 
 **Chart a course and embark across the perilous ocean of Lodestar!** Augment your body and your ship with salvaged tech; become the most ruthless Vessel to ever live. Take big risks, earn big rewards. Amass hordes of wealth and bankroll a naval empire.
 
-Codenamed "Project: Lodestar" is a video game/research space I'm using to teach myself:
+The Project codenamed "Lodestar" is a video game/research space I'm using to teach myself:
 1. game development
 2. the godot game engine
 3. rust by way of [godot-rust](rust)
