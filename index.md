@@ -12,12 +12,12 @@ layout: about
 The Project codenamed "Lodestar" is a video game/research space I'm using to teach myself:
 1. game development
 2. the godot game engine
-3. rust by way of [godot-rust](rust)
-4. Jerry Tessendorf's model for [real-time ocean surface simulation](sim)
+3. rust by way of [godot-rust][rust]
+4. Jerry Tessendorf's model for [real-time ocean surface simulation][sim]
 5. GIS and GIS mapping tools (little showcase in the map window)
 6. AIS and NMEA message broadcasts
    
-I'm also looking into combining GIS mapping with NOAA satellite imagery, per the suggestion of a friend. I am currently making an antenna and want to start collecting weather imagery with my [rtl-sdr](https://www.rtl-sdr.com/). Right now, I'm using [qgis](gis) to create my maps and it requires a lot of my attention to get working properly. I made the map of Lodestar by chopping up a shapefile of Alaska, which was fun but I'd like to eventually make another one from data in the video game. Creating a map from the ground-up will also teach me about map projections, which was a big pain point when exporting the map to the website. If I had spent more time on the map draft I would probably use Leaflet instead of Openlayers.
+I'm also looking into combining GIS mapping with NOAA satellite imagery, per the suggestion of a friend. I am currently making an antenna and want to start collecting weather imagery with my [rtl-sdr][spy]. Right now, I'm using [qgis][gis] to create my maps and it requires a lot of my attention to get working properly. I made the map of Lodestar by chopping up a shapefile of Alaska, which was fun but I'd like to eventually make another one from data in the video game. Creating a map from the ground-up will also teach me about map projections, which was a big pain point when exporting the map to the website. If I had spent more time on the map draft I would probably use Leaflet instead of Openlayers.
 
 [spy]: https://www.rtl-sdr.com/
 [rust]: https://godot-rust.github.io/
