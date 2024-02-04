@@ -33,6 +33,7 @@ plugins:
   - jekyll-feed
 header_files:
   - projects.md
+  - photos.md
   - blog.md
   - about.md
 # Exclude from processing.
