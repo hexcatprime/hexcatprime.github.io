@@ -37,6 +37,7 @@ This should be a good starting point for Tessendorf's model.
 - godot-rust may not be as useful as originally anticipated. A lot of the engine works off scripts, which doesn't appear to have a rust substitute.
 - I have yet to find another game that mimics globe behavior using flat planes. Closest I got was [manifold garden][garden] with 3d world wrapping.
 - I like the idea of chunking the world into pentagons and stitching them together. I think it would be trivial to instance a chunk one-after-another, but eventually we'd need to teleport the player close to the origin. Even though they're traversing the same chunks, the player is getting further away from the origin and this will introduce floating point precision errors. I'm not really sure how to implement this teleportation, especially in a multiplayer context because my intuition tells me that this approach will create drift, where absolute coordinates could translate to different places for two different players. 
+  
 ---
 ### 2024-02-14 <3
 One of my first ideas about game map chunking was making the world similar to a deconstructed soccer ball. The player would be teleported between the disconnected edges and this logic would imitate the traversal around a globe. I would be able to preserve the typical physics and wouldn't have to worry about creating islands/buildings with respect to spherical geometry.
