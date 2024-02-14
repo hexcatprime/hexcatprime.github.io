@@ -37,12 +37,29 @@ This should be a good starting point for Tessendorf's model.
 - godot-rust may not be as useful as originally anticipated. A lot of the engine works off scripts, which doesn't appear to have a rust substitute.
 - I have yet to find another game that mimics globe behavior using flat planes. Closest I got was [manifold garden][garden] with 3d world wrapping.
 - I like the idea of chunking the world into pentagons and stitching them together. I think it would be trivial to instance a chunk one-after-another, but eventually we'd need to teleport the player close to the origin. Even though they're traversing the same chunks, the player is getting further away from the origin and this will introduce floating point precision errors. I'm not really sure how to implement this teleportation, especially in a multiplayer context because my intuition tells me that this approach will create drift, where absolute coordinates could translate to different places for two different players. 
+---
+### 2024-02-14 <3
+One of my first ideas about game map chunking was making the world similar to a deconstructed soccer ball. The player would be teleported between the disconnected edges and this logic would imitate the traversal around a globe. I would be able to preserve the typical physics and wouldn't have to worry about creating islands/buildings with respect to spherical geometry.
+
+![poly][poly]
+
+Soccer world has its cons. I imagine the teleportation between disjointed edges will be troublesome, I may need to find some other projection where all the other edges mate nicely. If I were to simulate the sun and moon this map wouldn't realistically depict them towards the poles. This shortcoming is probably true for all projections so I'll need to jury-rig some solution for the skybox. 
+
+To the player, the sun could appear to travel across a linear path, but we could program it to move in an arc, rising in the north and setting in the north. Something like this would occur if we built a game world around the [Waterman][waterman] projection. Notice how the equator forms a U shape. 
+
+I still don't know for certain what would be the best way to create this type of game world. 
+
+![waterman][watproj]
+
 
 [spy]: https://www.rtl-sdr.com/
 [rust]: https://godot-rust.github.io/
 [sim]: https://people.computing.clemson.edu/~jtessen/reports/papers_files/waterslides2001.pdf
 [gis]: https://qgis.org/en/site/
-[dev]: https://www.youtube.com/watch?v=7L6ZUYj1hs8&t=614s
+[dev]: https://www.youtube.com/watch?v=7L6ZUYj1hs8&t
 [shader0]: /assets/images/20240213-ocean-0.gif
 [shader1]: /assets/images/20240213-ocean-1.gif
 [garden]: https://www.youtube.com/watch?v=ed2zmmcEryw
+[poly]: /assets/images/polyhedron.png
+[waterman]: https://en.wikipedia.org/wiki/Waterman_butterfly_projection
+[watproj]: /assets/images/waterman.png
