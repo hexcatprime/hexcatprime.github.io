@@ -5,7 +5,7 @@ layout: about
 ---
 {% include map.html %}
 
-# Project: Lodestar
+# Project: Polestar
 
 **Chart a course and embark across the perilous ocean of Lodestar!** Augment your body and your ship with salvaged tech; become the most ruthless Vessel to ever live. Take big risks, earn big rewards. Amass hordes of wealth and bankroll a naval empire.
 
@@ -51,6 +51,17 @@ To the player, the sun could appear to travel across a linear path, but we could
 I still don't know for certain what would be the best way to create this type of game world. 
 
 ![waterman][watproj]
+---
+### 2024-03-04
+I took a break from working on the ocean compute shader. Learning GLSL has proved challenging and graphics card programming is a new paradigm for me. I shifted my attention to using rust in godot to replace some classes and alleviate scripting overhead. My previous worries about godot-rust were unfounded.
+
+I made a planet class and staged a scene with Jupiter and the Gallilean moons. I'm going to attempt to make a 3d skybox, which will be visually impressive when fully implemented. Europa is tidally locked with Jupiter, meaning half of the sky will have Jupiter hanging overhead and the other half will be in darkness. 
+
+I also created a splashscreen video (below) in blender. I put this together in a couple of hours and I taught myself shapekeys, material shaders, and how to use animation keyframes. The animations were looking a little rigid so I made sure to put easing functions on the transition between keyframes.
+
+I had some difficulty animating the local rotation of the jaw, since I was able to rotate it as desired in the viewport but not in the animation. The animator doesn't respect local transformations so I needed to switch from XYZ Euler's rotations to Quaternions in order to properly animate the jaw rotating. Aside from that, it was relatively smooth sailing. There's still a lot to learn about the compositor and render pipeline, which was avoided since this was rendered straight from the viewport.
+![splash][splash]
+![icon][icon]
 
 
 [spy]: https://www.rtl-sdr.com/
@@ -64,3 +75,5 @@ I still don't know for certain what would be the best way to create this type of
 [poly]: /assets/images/polyhedron.png
 [waterman]: https://en.wikipedia.org/wiki/Waterman_butterfly_projection
 [watproj]: /assets/images/waterman.png
+[splash]: /assets/images/splashscreen.gif
+[icon]: /assets/images/icon.svg
