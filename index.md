@@ -60,8 +60,10 @@ I made a planet class and staged a scene with Jupiter and the Gallilean moons. I
 I also created a splashscreen video (below) in blender. I put this together in a couple of hours and I taught myself shapekeys, material shaders, and how to use animation keyframes. The animations were looking a little rigid so I made sure to put easing functions on the transition between keyframes.
 
 I had some difficulty animating the local rotation of the jaw, since I was able to rotate it as desired in the viewport but not in the animation. The animator doesn't respect local transformations so I needed to switch from XYZ Euler's rotations to Quaternions in order to properly animate the jaw rotating. Aside from that, it was relatively smooth sailing. There's still a lot to learn about the compositor and render pipeline, which was avoided since this was rendered straight from the viewport.
-![splash][splash]
 ![icon][icon]
+
+![splash][splash]
+
 
 
 [spy]: https://www.rtl-sdr.com/
