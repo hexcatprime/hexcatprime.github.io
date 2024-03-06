@@ -7,9 +7,9 @@ layout: about
 
 # Project: Polestar
 
-**Chart a course and embark across the perilous ocean of Lodestar!** Augment your body and your ship with salvaged tech; become the most ruthless Vessel to ever live. Take big risks, earn big rewards. Amass hordes of wealth and bankroll a naval empire.
+**Chart a course and embark across the perilous ocean of Polestar!** Augment your body and your ship with salvaged tech; become the most ruthless Vessel to ever live. Take big risks, earn big rewards. Amass hordes of wealth and bankroll a naval empire.
 
-The Project codenamed "Lodestar" is a video game/research space I'm using to teach myself:
+The Project codenamed "Polestar" is a video game/research space I'm using to teach myself:
 1. Game development
 2. The Godot game engine
 3. Rust by way of [godot-rust][rust]
@@ -17,7 +17,7 @@ The Project codenamed "Lodestar" is a video game/research space I'm using to tea
 5. GIS and GIS mapping tools (little showcase in the map window)
 6. AIS and NMEA message broadcasts
    
-I'm also looking into combining GIS mapping with NOAA satellite imagery, per the suggestion of a friend. I am currently making an antenna and want to start collecting weather imagery with my [RTL-SDR][spy]. Right now, I'm using [QGIS][gis] to create my maps and it requires a lot of my attention to get working properly. I made the map of Lodestar by chopping up a shapefile of Alaska, which was fun but I'd like to eventually make another one from data in the video game. Creating a map from the ground-up will also teach me about map projections, which was a big pain point when exporting the map to the website. If I had spent more time on the map draft I would probably use Leaflet instead of Openlayers.
+I'm also looking into combining GIS mapping with NOAA satellite imagery, per the suggestion of a friend. I am currently making an antenna and want to start collecting weather imagery with my [RTL-SDR][spy]. Right now, I'm using [QGIS][gis] to create my maps and it requires a lot of my attention to get working properly. I made the map of Polestar by chopping up a shapefile of Alaska, which was fun but I'd like to eventually make another one from data in the video game. Creating a map from the ground-up will also teach me about map projections, which was a big pain point when exporting the map to the website. If I had spent more time on the map draft I would probably use Leaflet instead of Openlayers.
 
 ## Updates
 ---
