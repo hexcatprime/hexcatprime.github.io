@@ -12,9 +12,6 @@ I go by dubsbol online and use this site to collect my creative and technical wo
 I wanted a domain name to host a minecraft server and chose the name hexcat because it was better than waiting to think of another name.
 Right now it doesn't mean anything, but one day I hope hexcat becomes a collective of my friends. This website would host our collaborative projects.
 
-![sandwich](/assets/images/banh-mi-bg-removed.gif)
-
-*See the source code: [hexcat][hexcat]. sandwich from [rotatingsandwiches][sandwich]*
+*See the source code: [hexcat][hexcat]. 
 
 [hexcat]: https://github.com/hexcatprime/hexcatprime.github.io/
-[sandwich]: https://rotatingsandwiches.com/
