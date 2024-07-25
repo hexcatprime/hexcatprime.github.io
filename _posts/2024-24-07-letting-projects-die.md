@@ -19,13 +19,13 @@ Letting go of old projects became easier when my mindset changed. I don't see th
 
 Some of my recent projects that are done or dead:
 - "covid mask"
-    ![covid]
+    ![covid]{:width="300px"}
 - mahjong tile prototype
-    ![mahjong]
+    ![mahjong]{:width="300px"}
 - minecraft dimension datapack (i might make a youtube video about this, lots to learn)
-    ![moon]
+    ![moon]{:width="300px"}
 - ikea backpack (this took me three years and i actually finished it after procrastinating for so long)
-    ![ikea]
+    ![ikea]{:width="300px"}
 
 [mahjong]:/assets/images/mahjong.jpg
 [moon]:/assets/images/moon.png
