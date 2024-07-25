@@ -1,7 +1,7 @@
 ---
 layout: post 
 filename: 2024-07-24-letting-projects-die.md
-title: Letting Projects Die
+title: letting projects die
 author: dubsbol
 date: 2024-07-24 19:18:52
 categories: writing
@@ -26,8 +26,9 @@ Some of my recent projects that are done or dead:
     ![moon]
 - ikea backpack (this took me three years and i actually finished it after procrastinating for so long)
     ![ikea]
-[mahjong]:/assets/images/mahjong.png
+
+[mahjong]:/assets/images/mahjong.jpg
 [moon]:/assets/images/moon.png
-[covid]:/assets/images/covid.png
-[ikea]:/assets/images/ikea.png
+[covid]:/assets/images/covid.jpg
+[ikea]:/assets/images/ikea.jpg
 
