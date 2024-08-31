@@ -11,7 +11,7 @@ Mentally I need to be able to ditch projects and free the space in my mind to th
 
 The skill comes in distinguishing what I want to do and what I no longer want to do, which is difficult some times. 
 
-I also think I have a tendency to stretch out projects. I have a set of tabletop miniatures. I painted 12 and was mariginally pleased. I printed 36 more and now felt bad because I'll never paint them. I have 6 half finished blender models because I wanted custom miniatures for a game I was playing in. I had to conciously set it down and declare it done before it outpaced me. I'm completed what I originally intended to and I'm contented with what I accomplished.
+I also think I have a tendency to stretch out projects. I have a set of tabletop miniatures. I painted 12 and was marginally pleased. I printed 36 more and now felt bad because I'll never paint them. I have 6 half finished blender models because I wanted custom miniatures for a game I was playing in. I had to conciously set it down and declare it done before it outpaced me. I'm completed what I originally intended to and I'm contented with what I accomplished.
 
 Letting go of old projects became easier when my mindset changed. I don't see them as dead branches on a tree, but instead as another pebble in my pile. It helped to zoom out and not fixate on individual works but instead the whole body of my work. Small and jagged pebbles still make the pile grow taller; maybe my pile will reach the moon one day.
 
