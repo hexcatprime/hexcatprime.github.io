@@ -14,6 +14,8 @@ For the future:
 - Make a diagram for a naval battle scenario. The rules aren't really self explanatory and a game master may need to see how everything works before running their own battles comfortably.
 - Provide resources for new game masters. I wrote this PDF for my own enjoyment, for this reason it lacks many tools someone with no experience would need to run a game smoothly.
 
-[Download Link (25MB)][hexcat]. 
+[Polestar: One Minute Until Midnight (25MB)][hexcat]. 
+[Character Sheet (87KB)][sheet]. 
 
 [hexcat]: assets/polestar.pdf
+[sheet]: assets/polestarcharsheet.pdf
