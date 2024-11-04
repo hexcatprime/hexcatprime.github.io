@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Roleplaying Game
+title: RPG
 permalink: /rpg/
 ---
 # Polestar: One Minute Until Midnight
