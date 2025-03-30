@@ -50,11 +50,11 @@ I still don't know for certain what would be the best way to create this type of
 ### 2024-02-13
 I got my environment setup and created a shader using a tutorial from [StayAtHomeDev][dev]. The first image is just a mix of two noise maps, each of which is being scrolled through in their own directions. This occurs in the fragment shader portion of the code and effects the texture of the ocean surface. 
 
-![shader][shader0]
+[fragment-shader][shader0]
 
 The second image is an implementation with a vertex shader, meaning the vertices in the ocean mesh are being tranformed. The vertex shader makes the height differences similar to that of a wave. This would be best suited for some kind of static cloth simulation, since this shader only displaces the vertex along one axis. More sophisticated fluid simulations account for turbulent waves displacing a water droplet across all three axes.
 
-![shader][shader1]
+[vertex-shader][shader1]
 
 This should be a good starting point for Tessendorf's model.
 

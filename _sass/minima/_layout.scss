@@ -22,7 +22,6 @@
   font-weight: 400;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
-  border: 2px solid $text-color;
   padding: 0% 1%;
   margin-bottom: 0;
   float: left;
@@ -63,7 +62,6 @@
   .page-link {
     color: $text-color;
     display: inline-block;
-    border: 2px solid $text-color;
     height: 100%;
     padding: 0% 2%;
     margin-bottom: 0;
