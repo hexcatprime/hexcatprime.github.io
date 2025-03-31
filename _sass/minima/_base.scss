@@ -15,8 +15,8 @@ dl, dd, ol, ul, figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: var(--text-color);
-  background-color: var(--background-color);
-  background-image: url('/assets/images/bitmap.png');
+  background-color: var(--text-color);
+  // background-image: url('/assets/images/bitmap.png');
   background-size: cover;
   background-attachment: scroll;
   background-blend-mode: normal;
