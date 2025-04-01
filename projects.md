@@ -2,6 +2,7 @@
 layout: projects
 title: Projects
 permalink: /projects/
+svg: /assets/images/projects.svg
 ---
 {% include project.html url="https://github.com/dubsbol/pigpack" image="/assets/images/pigpack.png" description="PIGPACK" %}
 {% include project.html url="https://github.com/dubsbol/leviathan" image="/assets/images/leviathan.png" description="LEVIATHAN" %}

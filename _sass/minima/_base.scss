@@ -181,8 +181,9 @@ pre {
   @extend %clearfix;
 }
 
-
-
+.padder {
+  padding: 0% 3%;
+}
 /**
  * Clearfix
  */

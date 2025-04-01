@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /about/
+svg: /assets/images/about.svg
 ---
 # Hello World!
 

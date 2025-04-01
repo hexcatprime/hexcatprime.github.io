@@ -2,6 +2,7 @@
 layout: default
 title: RPG
 permalink: /rpg/
+svg: /assets/images/rpg.svg
 ---
 # Polestar: One Minute Until Midnight
 
