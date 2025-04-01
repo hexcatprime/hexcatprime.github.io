@@ -8,17 +8,18 @@
     {%- else -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     {%- endif -%}
+
     {%- if page_paths -%}
-      <nav class="site-nav">
+    <nav class="site-nav">
           <span class="spacer">+</span>
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title and page.url == my_page.url -%}
-            <a class="page-link active" class="author"href="{{ my_page.url | relative_url }}" title="{{ my_page.title | escape }}">
+            <a class="page-link active author" href="{{ my_page.url | relative_url }}" title="{{ my_page.title | escape }}">
                 <img width="50" src="{{ my_page.svg }}" />{{ my_page.title | escape }}
             </a>
             {%- elsif my_page.title -%}
-            <a class="page-link" class="author"href="{{ my_page.url | relative_url }}" title="{{ my_page.title | escape }}">
+            <a class="page-link author" href="{{ my_page.url | relative_url }}" title="{{ my_page.title | escape }}">
               <img width="50" src="{{ my_page.svg }}" />{{ my_page.title | escape }}
             </a>
             {%- endif -%}
