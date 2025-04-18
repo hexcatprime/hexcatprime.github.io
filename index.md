@@ -19,11 +19,23 @@ I'm also looking into combining GIS mapping with NOAA satellite imagery, per the
 
 ## Updates
 
+### 2025-04-18
+Hey look, more than a year passed. Who let that happen? I certainly won't let that much time pass again.
+
+I did some work with flow fields and tried to make a convincing representation of Jupiter's turbulent atmosphere. A lot of work remains following this talk for how [Path of Exile 2 animates liquids](https://www.youtube.com/watch?v=TrHHTQqmAaM). 
+
+![jupiter](./assets/images/20241213_234914.png)
+
+Here's a timelapse of the moon's orbit. The stars in the background come from a noise texture put on a giant sphere. The viewpoint is inside the sphere, so I had to invert the normals to get the texture to show up properly. Ideally I would take a point cloud and build out simple geometry for each of the stars, but Godot does not have a geometry step in its render pipeline.
+
+![orbit](./assets/images/output.gif){: width="600" }
+
 ---
+
 ### 2024-03-04
 I took a break from working on the ocean compute shader. Learning GLSL has proved challenging and graphics card programming is a new paradigm for me. I shifted my attention to using rust in godot to replace some classes and alleviate scripting overhead. My previous worries about godot-rust were unfounded.
 
-I made a planet class and staged a scene with Jupiter and the Gallilean moons. I'm going to attempt to make a 3d skybox, which will be visually impressive when fully implemented. Europa is tidally locked with Jupiter, meaning half of the sky will have Jupiter hanging overhead and the other half will be in darkness. 
+I made a planet class and staged a scene with Jupiter and the Galilean moons. I'm going to attempt to make a 3d skybox, which will be visually impressive when fully implemented. Europa is tidally locked with Jupiter, meaning half of the sky will have Jupiter hanging overhead and the other half will be in darkness. 
 
 I also created a splashscreen video (below) in blender. I put this together in a couple of hours and I taught myself shapekeys, material shaders, and how to use animation keyframes. The animations were looking a little rigid so I made sure to put easing functions on the transition between keyframes.
 
