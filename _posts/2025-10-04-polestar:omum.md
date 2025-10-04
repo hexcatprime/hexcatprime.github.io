@@ -1,9 +1,11 @@
 ---
-layout: default
-title: RPG
-permalink: /rpg/
-svg: /assets/images/rpg.svg
+layout: post 
+filename: 2025-10-04-polestar:omum.md
+title: polestar:omum
+author: dubsbol
+date: 2025-10-04 1:10:07
 ---
+
 # Polestar: One Minute Until Midnight
 
 [Polestar: One Minute Until Midnight (25MB)][hexcat]. 

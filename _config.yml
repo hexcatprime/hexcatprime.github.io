@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   made with love <3
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.hexcat.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+twitter_username:
 github_username:  dubsbol
 
 # Build settings
@@ -33,7 +33,6 @@ plugins:
   - jekyll-feed
 header_files:
   - projects.md
-  - RPG.md
   - blog.md
   - about.md
 # Exclude from processing.
