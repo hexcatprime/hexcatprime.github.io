@@ -4,7 +4,6 @@ filename: 2024-07-24-letting-projects-die.md
 title: letting projects die
 author: dubsbol
 date: 2024-07-24 19:18:52
-categories: writing
 ---
 
 Mentally I need to be able to ditch projects and free the space in my mind to think about other things. I'm coming around to this idea, but previously I would never abandon a project and they would languish in my head forever. I didn't accept that my values or interests could change, so whatever is started must be finished. Most of these were personal projects for fun, they shouldn't make me miserable.
