@@ -1,8 +1,6 @@
 @charset "utf-8";
 
-// Define defaults for each variable.
-
-$base-font-family: sans-serif !default;
+$base-font-family: helvetica !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -15,45 +13,24 @@ $spacing-unit:     30px !default;
   --background-color: #FEFCFD;
   --brand-color: #00D0D0;
   --alert-color: #D00000;
-  // --text-color: #073642;
-  // --background-color: #fdf6e3;
-  // --brand-color: #268bd2;
-  // --alert-color: #dc322f;
    }
-
-// @media (prefers-color-scheme: dark) {
-//   :root {
-//     --text-color: #FEFCFD;
-//     --background-color: #031926;
-//     --brand-color: #D00000;
-//     --alert-color: #03B5AA;
-//    }
-//   }
 
 $text-color:       var(--text-color) !default;
 $background-color: var(--background-color) !default;
 $brand-color:      var(--brand-color) !default;
 $alert-color:      var(--alert-color) !default;
 
-$grey-color:       #b58900 !default;
+$grey-color:       #00b589 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
 
-// Width of the content area
 $content-width:    800px !default;
 
 $on-palm:          800px !default;
 $on-laptop:        800px !default;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;

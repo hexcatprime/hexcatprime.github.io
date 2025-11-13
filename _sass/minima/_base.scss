@@ -248,18 +248,17 @@ figure {
   display: inline-block;
   margin: 5px;
   border: 2px solid $brand-color;
-  mix-blend-mode: luminosity;
   align-items: center;
-}
 
-figure img {
+  img {
   display: block;
   background-color: $text-color;
+  mix-blend-mode: luminosity;
   width: 200px;
 }
-
-figure:hover {
+  img:hover {
   mix-blend-mode: normal;
+}
 }
 
 figcaption {
