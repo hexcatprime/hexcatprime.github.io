@@ -1,7 +1,7 @@
 ---
 layout: post 
 filename: 2025-11-13-sword-of-damocles.md
-title: The Sword of Damocles
+title: the sword of damocles
 author: dubsbol
 date: 2025-11-13 00:21:18
 ---
