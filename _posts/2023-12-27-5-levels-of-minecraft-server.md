@@ -30,6 +30,7 @@ I believe that hosting servers was influential in guiding me towards my studies 
     Before getting to Systemd, the Minecraft server was still a process of my Debian user. I would use tmux or the screen command to detach the Minecraft server process and shunt it into the background, allowing me to continue working from the terminal.I was even able to send commands to the process and change the state of the game world. From the bash terminal I could change the weather... or strike my friends with lightning.
 
     My experiences with the screen command were a little finicky, so I found a better solution in Systemd.
-    *UNDER CONSTRUCTION*
-5. **Socket Communication**
-   *UNDER CONSTRUCTION*
+
+5. **Virtualization**
+   
+   2025-11-18: I'm running the minecraft on a dedicated device and am learning a lot about virtualization and optimization techniques.
