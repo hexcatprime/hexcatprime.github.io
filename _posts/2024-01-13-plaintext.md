@@ -5,7 +5,9 @@ author: dubsbol
 date:   2024-01-13 13:38:08 -0500
 ---
 
-I watched No Boilerplate's video on [plaintext][1] and thought I should seriously apply those principles to my projects. I was already veering that way with the creation of this website and teaching myself cool markdown tricks. Beginning work again also necessitates this change, I need to document my code while minimizing the time spent fussing with note-taking software.
+I watched No Boilerplate's video on [plaintext][1] and thought I should seriously apply those principles to my projects. 
+
+I was already veering that way with the creation of this website and teaching myself cool markdown tricks. Beginning work again also necessitates this change, I need to document my code while minimizing the time spent fussing with note-taking software.
 
 ### Some things I've done this week with markdown 
 - Move documentation and admin of my video game off of Jira and Confluence
