@@ -5,8 +5,8 @@ author: dubsbol
 date:   2024-01-06 06:47:56 -0500
 ---
 
-# "What use is a cup that doesn't hold water?"
- 
+*"What use is a cup that doesn't hold water?"*
+
  I broke a tea cup over a year ago. It was part of a set my friend gifted me for Christmas. I already had too many cups and could suffer its absence on my shelf. Yet, I kept it on my dresser in seven pieces for over a year.
  
  January 1st arrived, as it did the previous year. This year I took the pieces of the tea cup and painted all the fractures gold, gluing the pieces together afterwards. Mending my broken tea cup didn't occur to me last New Year's, but it should have.
