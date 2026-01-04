@@ -3,5 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
+Hello World! I am currently working on my homelab environment. Right now that involves making a default NixOS config from which I’ll base all my virtual machines.
 
-Hello World! I am currently working on my homelab environment. Right now that involves making a default NixOS config from which I'll base all my virtual machines.
+**Featured Blog Post:**
+
+{% include_relative /_posts/2026-04-01-baud-rate.md %}
+
+---

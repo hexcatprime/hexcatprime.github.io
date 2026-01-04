@@ -1,8 +1,7 @@
 ---
-layout: post
 title:  "porcelain cups"
-author: dubsbol
 date:   2024-01-06 06:47:56 -0500
+layout: post
 ---
 
 *"What use is a cup that doesn't hold water?"*

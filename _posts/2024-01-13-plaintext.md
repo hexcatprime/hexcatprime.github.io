@@ -1,8 +1,7 @@
 ---
-layout: post
 title:  "plaintext"
-author: dubsbol
 date:   2024-01-13 13:38:08 -0500
+layout: post
 ---
 
 I watched No Boilerplate's video on [plaintext][1] and thought I should seriously apply those principles to my projects. 

@@ -1,9 +1,7 @@
 ---
-layout: post
-filename: 2024-02-14-clock-puzzle.md
 title: clock puzzle
-author: dubsbol
 date: 2024-02-14 05:08:26
+layout: post
 ---
 I showed my website to my parents some time back. They seemed superficially interested, but there wasn't anything here to grab their curiosity. The projects tab is nice for technical people that know what github is, but I think they would have liked to see something tangible from the code I've written (or a description, because some of the names are apocryphal).
 

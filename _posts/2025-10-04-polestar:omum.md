@@ -1,9 +1,7 @@
 ---
-layout: post 
-filename: 2025-10-04-polestar:omum.md
 title: polestar:omum
-author: dubsbol
 date: 2025-10-04 1:10:07
+layout: post 
 ---
 This is a roleplaying game I homebrewed over a couple of weeks. The appeal to this system are the following: simple progression, fast combat, and naval combat rules. I think the naval combat rules are intriguing because movement is abstracted, freeing players from counting hex squares. 
 

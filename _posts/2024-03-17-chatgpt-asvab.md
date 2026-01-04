@@ -1,9 +1,7 @@
 ---
-layout: post 
-filename: 2024-03-17-chatgpt-asvab.md
 title: chatgpt asvab
-author: dubsbol
 date: 2024-03-17 02:40:26
+layout: post 
 ---
 
 I fed some asvab questions into chatGPT 3.5 and it got all of the questions correct, which isn't surprising. I was unable to test GPT against the "Assembling Objects" since it no longer accepts image uploads from free users, but it would be cool to find out how it would answer a question like this:

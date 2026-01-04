@@ -1,8 +1,7 @@
 ---
-layout: post
 title:  "5 levels of minecraft server"
-author: dubsbol
 date:   2023-12-27 02:08:59 -0500
+layout: post
 ---
 I've played minecraft for 10 years and always needed to host minecraft servers for my friends. At first, the servers were kind of primitive. Now, they are more sophisticated.
 
