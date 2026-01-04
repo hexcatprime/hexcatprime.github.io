@@ -7,6 +7,6 @@ Hello World! I am currently working on my homelab environment. Right now that in
 
 **Featured Blog Post:**
 
-{% include_relative /_posts/2026-04-01-baud-rate.md %}
+{% include_relative /_posts/2026-01-04-baud-rate.md %}
 
 ---
